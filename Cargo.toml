@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/voting-domain",
+    "crates/voting-application",
+    "crates/voting-infrastructure",
+    "services/vote-service",
+    "services/worker",
+    "services/result-service",
+]

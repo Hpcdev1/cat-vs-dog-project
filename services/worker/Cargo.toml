@@ -1,0 +1,12 @@
+[package]
+name = "worker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+voting-domain = { path = "../../crates/voting-domain" }
+voting-application = { path = "../../crates/voting-application" }
+voting-infrastructure = { path = "../../crates/voting-infrastructure" }
+tokio = { version = "1", features = ["full"] }
+serde_json = "1"
+async-trait = "0.1"
